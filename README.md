@@ -9,4 +9,4 @@ ITE@Illinois Website Link: https://lotlouischoitslab.github.io/lotlouischoitslab
 - ### Louis Sungwoo Cho (ITE Front-End Developer)
 
 
-### Comands to temporary run on GitHub io: npm install gh-pages --save-dev --force 
+Comands to temporary run on GitHub io: npm install gh-pages --save-dev --force 
