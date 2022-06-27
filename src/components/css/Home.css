@@ -1,0 +1,52 @@
+.homepage{
+    background-size: 100% 90%;
+    padding: 20em;
+    background-image: url('its.jpg');
+    background-repeat: no-repeat;
+    
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-top: 16%;
+    padding-bottom: 22%;
+    padding-right: 15%; 
+}
+
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: .4em;
+    box-shadow:0 20px 10pc 0;
+    
+}
+
+.sub-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: .4em;
+    box-shadow:0 20px 10pc 0;
+}
+
+
+@media screen and (max-width: 512px) {
+    .title {
+        font-size: 30px;
+    }
+
+
+    .sub-title {
+        font-size: 12px;
+    }
+
+    
+}
+  
+  

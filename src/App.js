@@ -11,10 +11,12 @@ function App() {
   return (
     <div>
       <Navbar/>
-      {/* <Route to= '/home' components={Home} /> */}
+      <Home/>
+      
       
     </div>
   );
 }
+
 
 export default App;
