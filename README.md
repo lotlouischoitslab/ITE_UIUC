@@ -3,6 +3,9 @@ Hello and welcome to the GitHub repository for the Institute of Transportation E
 
 ITE@Illinois Website Link: 
 
+npm install gh-pages --save-dev --force 
+
+
 # Contributors
 
 - ### Louis Sungwoo Cho (ITE Front-End Developer)
