@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {FaBars,FaTimes} from 'react-icons/fa';
+import {Link} from 'react-scroll'
 import ITE_LOGO from '../assets/ite_logo.png';
 
 const Navbar = () => {
@@ -15,11 +16,31 @@ const Navbar = () => {
 
         <div>
             <ul className='hidden md:flex'>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>TEAM</li>
-                <li>CONTACT</li>
-                <li>JOIN</li>
+                <li>
+                    <Link to='home' smooth={true} duration={500}>
+                        HOME
+                    </Link>
+                </li>
+                <li>
+                    <Link to='about' smooth={true} duration={500}>
+                        ABOUT
+                    </Link>
+                </li>
+                <li>
+                    <Link to='team' smooth={true} duration={500}>
+                        TEAM
+                    </Link>
+                </li>
+                <li>
+                    <Link to='contact' smooth={true} duration={500}>
+                        CONTACT
+                    </Link>
+                </li>
+                <li>
+                    <Link to='join' smooth={true} duration={500}>
+                        JOIN
+                    </Link>
+                </li>
             </ul>
         </div>
 

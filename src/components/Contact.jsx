@@ -1,9 +1,15 @@
 import React from 'react'
+import './css/About.css'
 
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
+class Contact extends React.Component {
+    render() {
+        return(
+            <div name="contact" id ="contact" className="contact">
+                
+                
+            </div>
+        );
+    }
 }
 
 export default Contact;

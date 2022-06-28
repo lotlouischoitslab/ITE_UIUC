@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Team from './components/Team';
 import Contact from './components/Contact';
-import {Route,Link} from 'react-router-dom';
+import Join from './components/Join';
 
 
 function App() {
@@ -12,8 +12,10 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
-      
-      
+      <About/>
+      <Team/>
+      <Contact/>
+      <Join/>
     </div>
   );
 }

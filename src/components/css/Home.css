@@ -1,9 +1,10 @@
 .homepage{
-    background-size: 100% 90%;
+    background-size: 100% 100%;
     padding: 20em;
     background-image: url('its.jpg');
     background-repeat: no-repeat;
-    
+    padding-top: 25%;
+    padding-bottom: 15%;
 }
 
 #homepage {
@@ -12,7 +13,7 @@
     align-items: flex-start;
     padding-left: 15%;
     padding-top: 16%;
-    padding-bottom: 22%;
+    padding-bottom: 25%;
     padding-right: 15%; 
 }
 

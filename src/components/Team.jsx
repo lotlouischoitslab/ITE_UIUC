@@ -1,9 +1,16 @@
 import React from 'react'
+import './css/About.css'
 
-function Team() {
-  return (
-    <div>Team</div>
-  )
+class Team extends React.Component {
+    render() {
+        return(
+            <div name="team" id ="team" className="team">
+                
+              
+                
+            </div>
+        );
+    }
 }
 
 export default Team;
