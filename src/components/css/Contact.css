@@ -1,0 +1,48 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: #29b6f6;
+    padding-bottom: 450px;
+    padding-top: 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
+
+.contact-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    text-decoration: underline;
+    padding-left: 5%;
+}
+
+.contact-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
+
+
+
+
+
+@media screen and (max-width: 512px) {
+    .contact-title {
+        font-size: 30px; 
+    }
+    .contact-subtitle {
+        font-size: 15px; 
+    }
+    .contact-bio {
+        font-size: 12px;
+    }
+}

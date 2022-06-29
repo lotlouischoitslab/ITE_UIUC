@@ -1,12 +1,13 @@
 import React from 'react'
-import './css/About.css'
+import './css/Contact.css'
 
 class Contact extends React.Component {
     render() {
         return(
             <div name="contact" id ="contact" className="contact">
-                
-                
+                <div className="contact-title">
+                    CONTACT
+                </div>
             </div>
         );
     }

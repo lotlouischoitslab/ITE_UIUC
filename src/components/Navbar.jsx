@@ -32,6 +32,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
+                    <Link to='events' smooth={true} duration={500}>
+                        EVENTS
+                    </Link>
+                </li>
+                <li>
                     <Link to='contact' smooth={true} duration={500}>
                         CONTACT
                     </Link>
@@ -55,6 +60,7 @@ const Navbar = () => {
             <li className="py-6 text-4xl">HOME</li>
             <li className="py-6 text-4xl">ABOUT</li>
             <li className="py-6 text-4xl">TEAM</li>
+            <li className="py-6 text-4xl">EVENTS</li>
             <li className="py-6 text-4xl">CONTACT</li>
             <li className="py-6 text-4xl">JOIN</li>
         </ul>

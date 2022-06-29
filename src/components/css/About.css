@@ -22,21 +22,26 @@
     align-items: center;
     text-decoration: underline;
     padding-left: 5%;
-    
 }
 
-.about-grid {
-    display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(2,50%);
+.about-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
+
+
+.about {
     padding-left: 5%;
+    padding-right:5%;
 }
 
 .about-bio {
     grid-row-start: 2;
     grid-row-end: 4;
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 .about-img {
@@ -50,8 +55,10 @@
 
 @media screen and (max-width: 512px) {
     .about-title {
-        font-size: 30px;
-        
+        font-size: 30px; 
+    }
+    .about-subtitle {
+        font-size: 15px; 
     }
     .about-bio {
         font-size: 12px;

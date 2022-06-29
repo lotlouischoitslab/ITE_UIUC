@@ -1,4 +1,4 @@
-.join{
+.events{
     width: 100%;
     height: 100%;
     background-color: #29b6f6;
@@ -6,7 +6,7 @@
     padding-top: 10px;
 }
 
-#join {
+#events {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
 }
 
-.join-title {
+.events-title {
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -24,15 +24,35 @@
     padding-left: 5%;
 }
 
+.events-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
 
+
+.events {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+.events-bio {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 30px;
+    color: white;
+}
 
 
 @media screen and (max-width: 512px) {
-    .join-title {
+    .events-title {
         font-size: 30px; 
     }
-   
-    .join-bio {
+    .events-subtitle {
+        font-size: 15px; 
+    }
+    .events-bio {
         font-size: 12px;
     }
 }
