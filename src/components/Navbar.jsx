@@ -55,14 +55,39 @@ const Navbar = () => {
             
         </div>
         
-        {/* MOBILE MENU*/}
-        <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#29b6f6] flex flex-col justify-center items-center'}>
-            <li className="py-6 text-4xl">HOME</li>
-            <li className="py-6 text-4xl">ABOUT</li>
-            <li className="py-6 text-4xl">TEAM</li>
-            <li className="py-6 text-4xl">EVENTS</li>
-            <li className="py-6 text-4xl">CONTACT</li>
-            <li className="py-6 text-4xl">JOIN</li>
+        {/*Mobile Menu*/}
+        <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#29b6f6] flex flex-col justify-center items-center'}>
+            <li className = 'py-6 text-4xl'>
+                <Link onClick={handleClick}  to="home" smooth={true} duration={500}>
+                    HOME
+                </Link>
+            </li> 
+            <li className = 'py-6 text-4xl'>
+                <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
+                    ABOUT
+                </Link>
+            </li>
+            <li className = 'py-6 text-4xl'>
+                <Link onClick={handleClick}  to="team" smooth={true} duration={500}>
+                    TEAM
+                </Link>
+            </li>
+            <li className = 'py-6 text-4xl'>
+                <Link onClick={handleClick}  to="events" smooth={true} duration={500}>
+                    EVENTS
+                </Link>
+            </li>
+            <li className = 'py-6 text-4xl'>
+                <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+                    CONTACT
+                </Link>
+            </li>
+            <li className = 'py-6 text-4xl'>
+            <Link onClick={handleClick} to="join" smooth={true} duration={500}>
+                    JOIN US
+                </Link>
+            </li>
+           
         </ul>
 
 
