@@ -10,4 +10,4 @@ ITE@Illinois Website Link: https://lotlouischoitslab.github.io/ITE_ILLINOIS/
 
 
 Comands to temporary run on GitHub io: 
-    npm install gh-pages --save-dev --force 
+        npm install gh-pages --save-dev --force 
