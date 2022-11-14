@@ -21,3 +21,6 @@ Then you need to start React app
 ## Comands to temporary run on GitHub io: 
 
         npm install gh-pages --save-dev --force 
+        
+## References:
+https://create-react-app.dev/
