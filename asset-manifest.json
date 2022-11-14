@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ITE_UIUC/static/css/main.a26689d3.css",
+    "main.js": "/ITE_UIUC/static/js/main.7a248189.js",
+    "static/media/its_back.png": "/ITE_UIUC/static/media/its_back.de6c61bd0812cf094694.png",
+    "static/media/its.jpg": "/ITE_UIUC/static/media/its.bd7d2a9a4d0941d49de5.jpg",
+    "static/media/ite_logo.png": "/ITE_UIUC/static/media/ite_logo.2896d440e71f87221216.png",
+    "index.html": "/ITE_UIUC/index.html",
+    "main.a26689d3.css.map": "/ITE_UIUC/static/css/main.a26689d3.css.map",
+    "main.7a248189.js.map": "/ITE_UIUC/static/js/main.7a248189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a26689d3.css",
+    "static/js/main.7a248189.js"
+  ]
+}
