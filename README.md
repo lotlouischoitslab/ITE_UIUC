@@ -8,6 +8,8 @@ ITE@UIUC Website Link: https://lotlouischoitslab.github.io/ITE_UIUC
 
 - ### Louis Sungwoo Cho (ITE Front-End Developer)
 
+# How to Run the website
+
 
 ## Comands to temporary run on GitHub io: 
 
